@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4EC71016B1BC130087979D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC70F16B1BC130087979D /* UIKit.framework */; };
+		FC4EC71216B1BC130087979D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC71116B1BC130087979D /* Foundation.framework */; };
+		FC4EC71416B1BC130087979D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC71316B1BC130087979D /* CoreGraphics.framework */; };
+		FC4EC71A16B1BC130087979D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC71816B1BC130087979D /* InfoPlist.strings */; };
+		FC4EC71C16B1BC130087979D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC71B16B1BC130087979D /* main.m */; };
+		FC4EC72016B1BC130087979D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC71F16B1BC130087979D /* AppDelegate.m */; };
+		FC4EC72216B1BC130087979D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC72116B1BC130087979D /* Default.png */; };
+		FC4EC72416B1BC130087979D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC72316B1BC130087979D /* Default@2x.png */; };
+		FC4EC72616B1BC130087979D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC72516B1BC130087979D /* Default-568h@2x.png */; };
+		FC4EC72916B1BC130087979D /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC72816B1BC130087979D /* BrowserViewController.m */; };
+		FC4EC72C16B1BC130087979D /* BrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC72A16B1BC130087979D /* BrowserViewController.xib */; };
+		FC4EC73416B1BC140087979D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC73316B1BC140087979D /* SenTestingKit.framework */; };
+		FC4EC73516B1BC140087979D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC70F16B1BC130087979D /* UIKit.framework */; };
+		FC4EC73616B1BC140087979D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC71116B1BC130087979D /* Foundation.framework */; };
+		FC4EC73E16B1BC140087979D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC73C16B1BC140087979D /* InfoPlist.strings */; };
+		FC4EC74116B1BC140087979D /* EBFexplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC74016B1BC140087979D /* EBFexplorerTests.m */; };
+		FC4EC75A16B1DC770087979D /* SocialUtilitisies.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC75916B1DC770087979D /* SocialUtilitisies.m */; };
+		FC4EC75C16B1DD7D0087979D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC75B16B1DD7D0087979D /* Social.framework */; };
+		FC4EC75E16B1E6380087979D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC75D16B1E6380087979D /* Twitter.framework */; };
+		FC4EC76016B1E9B00087979D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC75F16B1E9B00087979D /* MessageUI.framework */; };
+		FC4EC76316B1F75F0087979D /* BookmarkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC76216B1F75F0087979D /* BookmarkListViewController.m */; };
+		FC4EC76516B1F7800087979D /* BookmarkListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC76416B1F7800087979D /* BookmarkListViewController.xib */; };
+		FC4EC77D16B55A2D0087979D /* SQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC77C16B55A2D0087979D /* SQLManager.m */; };
+		FC4EC77F16B55E780087979D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EC77E16B55E780087979D /* libsqlite3.0.dylib */; };
+		FC4EC78516B5649F0087979D /* BookmarkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC78416B5649F0087979D /* BookmarkItem.m */; };
+		FC4EC78916B57B200087979D /* bookmarks.sql in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC78816B57B200087979D /* bookmarks.sql */; };
+		FC4EC78E16B581560087979D /* AddBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4EC78C16B581560087979D /* AddBookmarkViewController.m */; };
+		FC4EC78F16B581560087979D /* AddBookmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4EC78D16B581560087979D /* AddBookmarkViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4EC73716B1BC140087979D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4EC70216B1BC130087979D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4EC70A16B1BC130087979D;
+			remoteInfo = EBFexplorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4EC70B16B1BC130087979D /* EBFexplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBFexplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4EC70F16B1BC130087979D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC4EC71116B1BC130087979D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC4EC71316B1BC130087979D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC4EC71716B1BC130087979D /* EBFexplorer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EBFexplorer-Info.plist"; sourceTree = "<group>"; };
+		FC4EC71916B1BC130087979D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC4EC71B16B1BC130087979D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC4EC71D16B1BC130087979D /* EBFexplorer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EBFexplorer-Prefix.pch"; sourceTree = "<group>"; };
+		FC4EC71E16B1BC130087979D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC4EC71F16B1BC130087979D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC4EC72116B1BC130087979D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC4EC72316B1BC130087979D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FC4EC72516B1BC130087979D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FC4EC72716B1BC130087979D /* BrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		FC4EC72816B1BC130087979D /* BrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		FC4EC72B16B1BC130087979D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BrowserViewController.xib; sourceTree = "<group>"; };
+		FC4EC73216B1BC140087979D /* EBFexplorerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBFexplorerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4EC73316B1BC140087979D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC4EC73B16B1BC140087979D /* EBFexplorerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EBFexplorerTests-Info.plist"; sourceTree = "<group>"; };
+		FC4EC73D16B1BC140087979D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC4EC73F16B1BC140087979D /* EBFexplorerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBFexplorerTests.h; sourceTree = "<group>"; };
+		FC4EC74016B1BC140087979D /* EBFexplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBFexplorerTests.m; sourceTree = "<group>"; };
+		FC4EC75816B1DC770087979D /* SocialUtilitisies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialUtilitisies.h; path = ShareManager/SocialUtilitisies.h; sourceTree = "<group>"; };
+		FC4EC75916B1DC770087979D /* SocialUtilitisies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialUtilitisies.m; path = ShareManager/SocialUtilitisies.m; sourceTree = "<group>"; };
+		FC4EC75B16B1DD7D0087979D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FC4EC75D16B1E6380087979D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FC4EC75F16B1E9B00087979D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FC4EC76116B1F75F0087979D /* BookmarkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkListViewController.h; path = Bokmarking/BookmarkListViewController.h; sourceTree = "<group>"; };
+		FC4EC76216B1F75F0087979D /* BookmarkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkListViewController.m; path = Bokmarking/BookmarkListViewController.m; sourceTree = "<group>"; };
+		FC4EC76416B1F7800087979D /* BookmarkListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarkListViewController.xib; sourceTree = "<group>"; };
+		FC4EC77B16B55A2D0087979D /* SQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManager.h; sourceTree = "<group>"; };
+		FC4EC77C16B55A2D0087979D /* SQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManager.m; sourceTree = "<group>"; };
+		FC4EC77E16B55E780087979D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FC4EC78316B5649F0087979D /* BookmarkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkItem.h; sourceTree = "<group>"; };
+		FC4EC78416B5649F0087979D /* BookmarkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkItem.m; sourceTree = "<group>"; };
+		FC4EC78816B57B200087979D /* bookmarks.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = bookmarks.sql; sourceTree = "<group>"; };
+		FC4EC78B16B581560087979D /* AddBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookmarkViewController.h; sourceTree = "<group>"; };
+		FC4EC78C16B581560087979D /* AddBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookmarkViewController.m; sourceTree = "<group>"; };
+		FC4EC78D16B581560087979D /* AddBookmarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBookmarkViewController.xib; sourceTree = "<group>"; };
+		FC4EC79516B5917D0087979D /* LoadPageFromBookmarkProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadPageFromBookmarkProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4EC70816B1BC130087979D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4EC77F16B55E780087979D /* libsqlite3.0.dylib in Frameworks */,
+				FC4EC76016B1E9B00087979D /* MessageUI.framework in Frameworks */,
+				FC4EC75E16B1E6380087979D /* Twitter.framework in Frameworks */,
+				FC4EC75C16B1DD7D0087979D /* Social.framework in Frameworks */,
+				FC4EC71016B1BC130087979D /* UIKit.framework in Frameworks */,
+				FC4EC71216B1BC130087979D /* Foundation.framework in Frameworks */,
+				FC4EC71416B1BC130087979D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4EC72E16B1BC140087979D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4EC73416B1BC140087979D /* SenTestingKit.framework in Frameworks */,
+				FC4EC73516B1BC140087979D /* UIKit.framework in Frameworks */,
+				FC4EC73616B1BC140087979D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4EC70016B1BC130087979D = {
+			isa = PBXGroup;
+			children = (
+				FC4EC71516B1BC130087979D /* EBFexplorer */,
+				FC4EC73916B1BC140087979D /* EBFexplorerTests */,
+				FC4EC70E16B1BC130087979D /* Frameworks */,
+				FC4EC70C16B1BC130087979D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4EC70C16B1BC130087979D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC70B16B1BC130087979D /* EBFexplorer.app */,
+				FC4EC73216B1BC140087979D /* EBFexplorerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4EC70E16B1BC130087979D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC77E16B55E780087979D /* libsqlite3.0.dylib */,
+				FC4EC75F16B1E9B00087979D /* MessageUI.framework */,
+				FC4EC75D16B1E6380087979D /* Twitter.framework */,
+				FC4EC75B16B1DD7D0087979D /* Social.framework */,
+				FC4EC70F16B1BC130087979D /* UIKit.framework */,
+				FC4EC71116B1BC130087979D /* Foundation.framework */,
+				FC4EC71316B1BC130087979D /* CoreGraphics.framework */,
+				FC4EC73316B1BC140087979D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC4EC71516B1BC130087979D /* EBFexplorer */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC79416B591390087979D /* Protocol */,
+				FC4EC78A16B581310087979D /* Adding Bookmark */,
+				FC4EC78216B564780087979D /* Object Model */,
+				FC4EC75416B1DBCD0087979D /* AppDelegate */,
+				FC4EC75516B1DBE50087979D /* The Browser */,
+				FC4EC75716B1DC060087979D /* Bookmarks List  */,
+				FC4EC75616B1DBF90087979D /* ShareManager */,
+				FC4EC77616B558120087979D /* SQLManager */,
+				FC4EC71616B1BC130087979D /* Supporting Files */,
+			);
+			path = EBFexplorer;
+			sourceTree = "<group>";
+		};
+		FC4EC71616B1BC130087979D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC78816B57B200087979D /* bookmarks.sql */,
+				FC4EC71716B1BC130087979D /* EBFexplorer-Info.plist */,
+				FC4EC71816B1BC130087979D /* InfoPlist.strings */,
+				FC4EC71B16B1BC130087979D /* main.m */,
+				FC4EC71D16B1BC130087979D /* EBFexplorer-Prefix.pch */,
+				FC4EC72116B1BC130087979D /* Default.png */,
+				FC4EC72316B1BC130087979D /* Default@2x.png */,
+				FC4EC72516B1BC130087979D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC4EC73916B1BC140087979D /* EBFexplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC73F16B1BC140087979D /* EBFexplorerTests.h */,
+				FC4EC74016B1BC140087979D /* EBFexplorerTests.m */,
+				FC4EC73A16B1BC140087979D /* Supporting Files */,
+			);
+			path = EBFexplorerTests;
+			sourceTree = "<group>";
+		};
+		FC4EC73A16B1BC140087979D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC73B16B1BC140087979D /* EBFexplorerTests-Info.plist */,
+				FC4EC73C16B1BC140087979D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC4EC75416B1DBCD0087979D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC71E16B1BC130087979D /* AppDelegate.h */,
+				FC4EC71F16B1BC130087979D /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FC4EC75516B1DBE50087979D /* The Browser */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC72716B1BC130087979D /* BrowserViewController.h */,
+				FC4EC72816B1BC130087979D /* BrowserViewController.m */,
+				FC4EC72A16B1BC130087979D /* BrowserViewController.xib */,
+			);
+			name = "The Browser";
+			sourceTree = "<group>";
+		};
+		FC4EC75616B1DBF90087979D /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC75816B1DC770087979D /* SocialUtilitisies.h */,
+				FC4EC75916B1DC770087979D /* SocialUtilitisies.m */,
+			);
+			name = ShareManager;
+			sourceTree = "<group>";
+		};
+		FC4EC75716B1DC060087979D /* Bookmarks List  */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC76116B1F75F0087979D /* BookmarkListViewController.h */,
+				FC4EC76216B1F75F0087979D /* BookmarkListViewController.m */,
+				FC4EC76416B1F7800087979D /* BookmarkListViewController.xib */,
+			);
+			name = "Bookmarks List ";
+			sourceTree = "<group>";
+		};
+		FC4EC77616B558120087979D /* SQLManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC77B16B55A2D0087979D /* SQLManager.h */,
+				FC4EC77C16B55A2D0087979D /* SQLManager.m */,
+			);
+			name = SQLManager;
+			sourceTree = "<group>";
+		};
+		FC4EC78216B564780087979D /* Object Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC78316B5649F0087979D /* BookmarkItem.h */,
+				FC4EC78416B5649F0087979D /* BookmarkItem.m */,
+			);
+			name = "Object Model";
+			sourceTree = "<group>";
+		};
+		FC4EC78A16B581310087979D /* Adding Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC78B16B581560087979D /* AddBookmarkViewController.h */,
+				FC4EC78C16B581560087979D /* AddBookmarkViewController.m */,
+				FC4EC78D16B581560087979D /* AddBookmarkViewController.xib */,
+			);
+			name = "Adding Bookmark";
+			sourceTree = "<group>";
+		};
+		FC4EC79416B591390087979D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EC79516B5917D0087979D /* LoadPageFromBookmarkProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4EC70A16B1BC130087979D /* EBFexplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4EC74416B1BC140087979D /* Build configuration list for PBXNativeTarget "EBFexplorer" */;
+			buildPhases = (
+				FC4EC70716B1BC130087979D /* Sources */,
+				FC4EC70816B1BC130087979D /* Frameworks */,
+				FC4EC70916B1BC130087979D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBFexplorer;
+			productName = EBFexplorer;
+			productReference = FC4EC70B16B1BC130087979D /* EBFexplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4EC73116B1BC140087979D /* EBFexplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4EC74716B1BC140087979D /* Build configuration list for PBXNativeTarget "EBFexplorerTests" */;
+			buildPhases = (
+				FC4EC72D16B1BC140087979D /* Sources */,
+				FC4EC72E16B1BC140087979D /* Frameworks */,
+				FC4EC72F16B1BC140087979D /* Resources */,
+				FC4EC73016B1BC140087979D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4EC73816B1BC140087979D /* PBXTargetDependency */,
+			);
+			name = EBFexplorerTests;
+			productName = EBFexplorerTests;
+			productReference = FC4EC73216B1BC140087979D /* EBFexplorerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4EC70216B1BC130087979D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = EBF;
+			};
+			buildConfigurationList = FC4EC70516B1BC130087979D /* Build configuration list for PBXProject "EBFexplorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC4EC70016B1BC130087979D;
+			productRefGroup = FC4EC70C16B1BC130087979D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4EC70A16B1BC130087979D /* EBFexplorer */,
+				FC4EC73116B1BC140087979D /* EBFexplorerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4EC70916B1BC130087979D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4EC71A16B1BC130087979D /* InfoPlist.strings in Resources */,
+				FC4EC72216B1BC130087979D /* Default.png in Resources */,
+				FC4EC72416B1BC130087979D /* Default@2x.png in Resources */,
+				FC4EC72616B1BC130087979D /* Default-568h@2x.png in Resources */,
+				FC4EC72C16B1BC130087979D /* BrowserViewController.xib in Resources */,
+				FC4EC76516B1F7800087979D /* BookmarkListViewController.xib in Resources */,
+				FC4EC78916B57B200087979D /* bookmarks.sql in Resources */,
+				FC4EC78F16B581560087979D /* AddBookmarkViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4EC72F16B1BC140087979D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4EC73E16B1BC140087979D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC4EC73016B1BC140087979D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4EC70716B1BC130087979D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4EC71C16B1BC130087979D /* main.m in Sources */,
+				FC4EC72016B1BC130087979D /* AppDelegate.m in Sources */,
+				FC4EC72916B1BC130087979D /* BrowserViewController.m in Sources */,
+				FC4EC75A16B1DC770087979D /* SocialUtilitisies.m in Sources */,
+				FC4EC76316B1F75F0087979D /* BookmarkListViewController.m in Sources */,
+				FC4EC77D16B55A2D0087979D /* SQLManager.m in Sources */,
+				FC4EC78516B5649F0087979D /* BookmarkItem.m in Sources */,
+				FC4EC78E16B581560087979D /* AddBookmarkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4EC72D16B1BC140087979D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4EC74116B1BC140087979D /* EBFexplorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4EC73816B1BC140087979D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4EC70A16B1BC130087979D /* EBFexplorer */;
+			targetProxy = FC4EC73716B1BC140087979D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC4EC71816B1BC130087979D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4EC71916B1BC130087979D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC4EC72A16B1BC130087979D /* BrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4EC72B16B1BC130087979D /* en */,
+			);
+			name = BrowserViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC4EC73C16B1BC140087979D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4EC73D16B1BC140087979D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC4EC74216B1BC140087979D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC4EC74316B1BC140087979D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4EC74516B1BC140087979D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBFexplorer/EBFexplorer-Prefix.pch";
+				INFOPLIST_FILE = "EBFexplorer/EBFexplorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC4EC74616B1BC140087979D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBFexplorer/EBFexplorer-Prefix.pch";
+				INFOPLIST_FILE = "EBFexplorer/EBFexplorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC4EC74816B1BC140087979D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EBFexplorer.app/EBFexplorer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBFexplorer/EBFexplorer-Prefix.pch";
+				INFOPLIST_FILE = "EBFexplorerTests/EBFexplorerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FC4EC74916B1BC140087979D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EBFexplorer.app/EBFexplorer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBFexplorer/EBFexplorer-Prefix.pch";
+				INFOPLIST_FILE = "EBFexplorerTests/EBFexplorerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4EC70516B1BC130087979D /* Build configuration list for PBXProject "EBFexplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4EC74216B1BC140087979D /* Debug */,
+				FC4EC74316B1BC140087979D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4EC74416B1BC140087979D /* Build configuration list for PBXNativeTarget "EBFexplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4EC74516B1BC140087979D /* Debug */,
+				FC4EC74616B1BC140087979D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC4EC74716B1BC140087979D /* Build configuration list for PBXNativeTarget "EBFexplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4EC74816B1BC140087979D /* Debug */,
+				FC4EC74916B1BC140087979D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4EC70216B1BC130087979D /* Project object */;
+}

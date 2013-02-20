@@ -48,6 +48,11 @@
         [destination presentViewController:controller animated:YES completion:Nil];
         
     }
+    else
+    {
+        UIAlertView*alertview= [[UIAlertView alloc]initWithTitle:@"iOS bug" message:@"your iOS device can't provide access to your facebook account, please check your Settings at Settings -> Facebook " delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertview show];
+    }
 
     
 }

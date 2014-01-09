@@ -12,4 +12,4 @@ This sample include some best practices to show you how to code smarter using th
 
 <br><br><br>
 Licence : 
-You are free to use the code and reuse it even on commercial projects.
+You are free to use the code and reuse it even on commercial projects. just ping me at arfaoui.bechir@gmail.com

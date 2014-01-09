@@ -10,3 +10,6 @@ This sample include some best practices to show you how to code smarter using th
 * dealing with UIWebview 
 
 
+<br><br><br>
+Licence : 
+You are free to use the code and reuse it even on commercial projects.
